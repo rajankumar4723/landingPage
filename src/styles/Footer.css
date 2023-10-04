@@ -1,0 +1,52 @@
+
+.back {
+    background-color: rgb(10, 10, 10);
+    margin-top: 20px;
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    /* padding: 40px; */
+}
+.social-link{
+    overflow: hidden;
+
+}
+.link{
+    position: relative;
+    left: 25%;
+    margin-top: 40px;
+}
+
+.link a {
+    color: white;
+    margin-right: 40px;
+   
+
+
+}
+.link a:hover{
+    color: #fff;
+    padding: 8px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+.link ul li a i{
+    font-size: 30px;
+}
+.copy{
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+}
+@media screen and (max-width: 768px) {
+
+    .link{
+        margin-right: 150px;
+        padding: 10px;
+    }
+    .link i{
+        margin-top: 20px;
+
+    }
+
+}

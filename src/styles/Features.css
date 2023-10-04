@@ -1,0 +1,32 @@
+.main-section h1 {
+    color: black;
+    text-align: center;
+}
+
+.main-section p {
+    width: 90%;
+    text-align: center;
+}
+
+.container-box {
+    flex-wrap: wrap;
+
+}
+
+.features-container {
+    width: 300px;
+    text-align: center;
+    /* background-color: red; */
+    margin: 5px;
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.features-container:hover {
+    font-family: 'poppins', sans-serif;
+    background-color: rgb(240, 233, 233);
+    border-radius: 10%;
+    cursor: pointer;
+    transform: translate(2px, 25px); 
+
+}

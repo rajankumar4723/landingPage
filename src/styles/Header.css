@@ -1,0 +1,88 @@
+.flex {
+    display: flex;
+    align-content: center;
+}
+
+.header {
+    padding: 30px;
+    overflow: hidden;
+
+}
+
+.header-left {
+    max-width: 40vw;
+    padding: 30px;
+}
+
+.header-left h1 {
+    font-size: 50px;
+}
+
+.header-left span {
+    color: #8e44ad;
+}
+
+.heading-second {
+    color: #f1c40f !important;
+}
+
+.header-left p {
+    width: 80%;
+}
+
+.header-right {
+    width: 50vw;
+    margin-top: 65px;
+}
+
+.header-right img {
+    width: 100%;
+    border-radius: 5%;
+}
+
+.buy {
+    margin-left: 50px;
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 5%;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 2se ease-in;
+    color: white;
+    background: #3498db;
+}
+
+.buy:hover {
+    color: black;
+
+}
+@media screen and (max-width: 768px) {
+    .flex{
+        flex-direction: column-reverse;
+    }
+    .header-left{
+        max-width: 100vh;
+        padding: 10px;
+    }
+    .header-left h1{
+        font-size: 40px;
+
+    }
+    .header-left h2{
+        text-align: center;
+    }
+    .header-left p{
+        text-align: center;
+        width: 100%;
+    }
+    .header-right {
+        position: relative;
+        width: 100%;
+    }
+    .buy{
+        margin-left: 85px;
+    }
+    
+     
+}
